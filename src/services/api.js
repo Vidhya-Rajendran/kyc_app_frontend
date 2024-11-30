@@ -1,8 +1,10 @@
 
 import axios from 'axios';
 
+console.log(process.env.VUE_APP_BACKEND_URL, 'process.env.BACKEND_URL')
+
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: process.env.VUE_APP_BACKEND_URL + '/api',
 });
 
 API.interceptors.request.use((config) => {
