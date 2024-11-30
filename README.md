@@ -16,9 +16,9 @@ A web application for **KYC (Know Your Customer)** management, built using **Vue
 ## Installation
 
 ### Prerequisites:
-- Vue 3
-- Vue router
-- Bootstrap
+- Node.js (>=14.x)
+- npm (>=7.x)
+
 
 ### Steps to Set Up:
 1. Clone the repository:
